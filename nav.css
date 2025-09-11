@@ -1,0 +1,44 @@
+.navigation{
+    --Gapping: 24px;
+    --Marginbtm: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--midnight-green);
+    border-radius: 8px;
+    padding-bottom: 4px;
+    margin-left: var(--Marginbtm);
+    margin-right: var(--Marginbtm);
+    a{
+        color: var(--mint-color);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+}
+.socialIcons{
+    display: flex;
+    float: right;
+    gap: var(--Gapping);
+    padding-right: 4px;
+    i{
+        font-size: larger;
+    }
+}
+.websiteNav{
+    display: flex;
+    float: left;
+    gap: var(--Gapping);
+    padding-left: 8px;
+    a{font-size: larger;}
+}
+
+#mainpage {
+    cursor: default;
+    color: var(--blue-munsell);
+}
+
+.navigation a:hover,
+#mainpage {
+    color: var(--blue-munsell);
+    transform: scale(1.2);
+}

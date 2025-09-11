@@ -1,0 +1,42 @@
+#mySkills{
+    font-size: large;
+    margin-left: 4rem;
+    margin-top: 24px;
+    .title{
+        color: var(--mint-color);
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 24px;
+    }
+    .Cskills {
+        display: flex;
+        gap: 8rem;
+            section {
+                background-color: var(--midnight-green);
+                border: 1px solid var(--blue-munsell);
+                border-left: 3px solid var(--mint-color);
+                border-radius: 4px;
+                padding-top: 16px;
+                width: 24rem;
+                transition: all 0.3s ease;
+                width: 32rem;
+                h2 {
+                    color: var(--mint-color);
+                    text-align: center;
+                }
+    
+                p {
+                    color: var(--carloni-blue);
+                    padding-left: 6px;
+                    padding-right: 6px;
+                }
+                .still{
+                    p{color: var(--prussian-blue);}
+                }
+            }
+        }
+}
+section:hover {
+    transform: scale(1.1);
+    cursor: default;
+}
